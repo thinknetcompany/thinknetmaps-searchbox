@@ -1,0 +1,39 @@
+{
+  "name": "thinknetmaps-searchbox", 
+  "version": "1.0.0", 
+  "description": "Map search by THiNKNETMaps", 
+  "main": ".js", 
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": { 
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "search",
+    "searchbox",
+    "mapsearch",
+    "thinknetmaps",
+    "location"
+  ],
+  "author": "TN",
+  "license": "ISC", 
+  "peerDependencies": {
+    "mapbox-gl": ">= 0.47.0 < 2.0.0"
+  },
+  "dependencies": {
+    "@mapbox/mapbox-sdk": "^0.5.0",
+    "axios": "0.18.0",
+    "lodash.debounce": "^4.0.6",
+    "suggestions": "1.7.0",
+    "subtag": "^0.5.0",
+    "xtend": "^4.0.1"
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint",
+      "git add"
+    ]
+  }
+} 
