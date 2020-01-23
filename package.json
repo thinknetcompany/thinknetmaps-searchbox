@@ -1,14 +1,14 @@
 {
   "name": "thinknetmaps-searchbox", 
   "version": "1.0.0", 
-  "description": "Map search by THiNKNETMaps", 
-  "main": ".js", 
+  "description": "Search place on map by THiNKNETMaps", 
+  "main": "MapSearchBoxControl.js", 
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": { 
     "type": "git",
-    "url": ""
+    "url": "https://github.com/thinknetcompany/thinknetmaps-searchbox.git"
   },
   "keywords": [
     "search",
@@ -17,8 +17,12 @@
     "thinknetmaps",
     "location"
   ],
-  "author": "TN",
-  "license": "ISC", 
+  "author": "THiNKNET",
+  "license": "ISC",
+  "bugs": { 
+    "url": "https://github.com/thinknetcompany/thinknetmaps-searchbox/issues"
+  },
+  "homepage": "https://maps.thinknet.co.th/", 
   "peerDependencies": {
     "mapbox-gl": ">= 0.47.0 < 2.0.0"
   },
